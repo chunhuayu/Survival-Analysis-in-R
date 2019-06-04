@@ -14,6 +14,5 @@
 
 ## Digest the Survival Analysis
 * Why do we need to create a data.frame of "imaginary patients" when plotting survival models with covariates?
-We don't have to, but it makes our life easier.
    * Because survival curves can only be plotted for given covariate combinations.
    * Correct! You can also use real patients, but you will have to tell the function which covariate combinations you want to look at. That is why we call them imaginary patients.
