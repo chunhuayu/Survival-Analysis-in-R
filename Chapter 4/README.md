@@ -8,6 +8,6 @@
 * The Cox model cannot deal with the situation where survival curves cross. This is also the case for the Weibull model.
 
 ## Difference
-Surv() is used to define the time-to-event outcome, 
-survreg() can be used to estimate a Weibull model, 
-survfit() you can estimate survival curves.
+> Surv() is used to define the time-to-event outcome 
+> survreg() can be used to estimate a Weibull model 
+> survfit() you can estimate survival curves.
