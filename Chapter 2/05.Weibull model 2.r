@@ -16,3 +16,6 @@ wb <- survreg(Surv(time, cens) ~ 1, data = GBSG2)
 
 # 70 Percent of patients survive beyond time point...
 predict(wb, type = 'quantile', p = 1-0.7, newdata = data.frame(1))
+
+
+# my understanding for the above function : the optional parameter p=F(t)=P(T<t)
