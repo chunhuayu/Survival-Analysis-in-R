@@ -5,7 +5,8 @@
 # This can be done with the argument newdata.
 
 ### Instructions
-# Compute a Weibull model for the GBSG2 dataset with covariate horTh to analyze the effect of hormonal therapy on the survival of patients.
+# Compute a Weibull model for the GBSG2 dataset with covariate horTh to analyze the effect 
+# of hormonal therapy on the survival of patients.
 # Compute the survival curve for patients who receive hormonal therapy.
 # Take a look at the survival curve with str().
 
